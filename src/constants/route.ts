@@ -1,0 +1,15 @@
+export const ROUTE = {
+  HOME: "/",
+  LOGIN: "/login",
+  HELP_ME: "/help-me",
+  HELP_ME_REGISTER: "/help-me/register",
+  HELP_ME_EDIT: "/help-me/edit",
+  HELP_YOU: "/help-you",
+  HELP_YOU_REGISTER: "/help-you/register",
+  HELP_YOU_EDIT: "/help-you/edit",
+  CHAT: "/chat/0",
+  MY_PAGE: "/my-page",
+  MY_PAGE_EDIT: "/my-page/edit",
+  MY_PAGE_HELP_ME: "/my-page/help-me",
+  MY_PAGE_HELP_YOU: "/my-page/help-you",
+} as const;

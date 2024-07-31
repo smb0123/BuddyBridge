@@ -1,0 +1,33 @@
+.container {
+  @include flexSort(null, null, null, 1rem);
+}
+
+.name {
+  @include gmarketFont(1.5rem, 400, normal);
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.nameContainer {
+  @include flexSort(column, null, null, 1rem);
+  position: relative;
+}
+
+.chat {
+  width: 30rem;
+  border-radius: 2rem;
+  background: #e6e6ea;
+  padding: 2rem;
+  @include gmarketFont(1.5rem, 400, normal);
+  top: 2rem;
+  overflow-wrap: break-word;
+}
+
+.date {
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  @include font(1.3rem, 400, normal);
+}

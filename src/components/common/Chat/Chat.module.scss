@@ -1,0 +1,50 @@
+.container {
+  padding: 2rem;
+  @include flexSort(null, null, center, null);
+  max-width: 36rem;
+}
+
+.box {
+  @include flexSort(null, null, center, 1rem);
+  position: relative;
+  width: 100%;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.contentBox {
+  @include flexSort(column, null, null, 1rem);
+  flex: 1;
+}
+
+.headerBox {
+  @include flexSort(null, null, center, 2rem);
+  color: black;
+}
+
+.content {
+  @include gmarketFont(1.5rem, 500, normal);
+  color: #8d8989;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 22.4rem;
+}
+
+.date {
+  position: absolute;
+  color: #8d8989;
+  @include gmarketFont(1.1rem, 500, normal);
+  right: 0;
+  top: 0;
+}
+
+.name {
+  @include gmarketFont(1.3rem, 400, normal);
+}
+
+.type {
+  @include gmarketFont(1.2rem, 500, normal);
+}
